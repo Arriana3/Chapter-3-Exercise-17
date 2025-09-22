@@ -16,8 +16,9 @@ int main()
     num2 = rand() % 1000;
     cout << setw(6) << num1 << endl;
     cout << " + " << setw(3) << num2 << endl;
-    cin.ignore();
+	cout << " _____ Press enter to reveal answer.";
+
     cin.get();
     sum = num1 + num2;
-    cout << "The answer is " << sum << ".\n";
+    cout  << setw(6) << sum << ".\n";
 }
